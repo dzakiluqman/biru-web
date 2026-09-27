@@ -1,0 +1,286 @@
+{
+  "common": {
+    "agencyName": "biru",
+    "agencyTagline": "Digital Engineering & Business Automation",
+    "nav": {
+      "home": "Beranda",
+      "services": "Layanan",
+      "portfolio": "Portofolio",
+      "about": "Tentang Kami",
+      "contact": "Kontak & Tiket",
+      "admin": "Admin Portal"
+    },
+    "footer": {
+      "desc": "Agensi digital modern spesialis rekayasa perangkat lunak berkinerja tinggi, sistem kustom (ERP/CRM/POS), dan automasi bisnis cerdas.",
+      "servicesTitle": "Layanan Utama",
+      "companyTitle": "Perusahaan",
+      "legalTitle": "Legal & Kontak",
+      "rights": "Hak cipta dilindungi undang-undang.",
+      "securityBadge": "Enterprise Grade Security",
+      "performanceBadge": "Zero-Lag Performance"
+    },
+    "actions": {
+      "learnMore": "Pelajari Selengkapnya",
+      "getStarted": "Mulai Konsultasi",
+      "viewPortfolio": "Lihat Portofolio",
+      "contactSales": "Hubungi Tim",
+      "backToHome": "Kembali ke Beranda",
+      "copied": "Berhasil Disalin!",
+      "copy": "Salin",
+      "loading": "Memproses...",
+      "close": "Tutup",
+      "save": "Simpan Perubahan",
+      "delete": "Hapus",
+      "cancel": "Batal"
+    }
+  },
+  "home": {
+    "hero": {
+      "badge": "Agensi Transformasi Digital & Automasi",
+      "title": "Membangun Ekosistem Digital Berkecepatan Tinggi untuk Bisnis Skala Global",
+      "highlight": "Berkecepatan Tinggi",
+      "subtitle": "Kami merancang dan mengembangkan website enterprise, custom digital system (ERP, CRM, POS), serta otomatisasi alur kerja bisnis yang meningkatkan efisiensi hingga 300%.",
+      "primaryCta": "Buat Tiket Proyek",
+      "secondaryCta": "Lihat Portofolio",
+      "stats": {
+        "uptime": "99.98% Uptime SLA",
+        "speed": "< 0.8s Rata-rata Muat",
+        "delivered": "120+ Sistem Sukses",
+        "satisfaction": "4.9/5 Kepuasan Klien"
+      }
+    },
+    "values": {
+      "badge": "Nilai Unggulan Kami",
+      "title": "Standar Rekayasa Tanpa Kompromi",
+      "subtitle": "Setiap baris kode dioptimasi untuk kecepatan, ketahanan beban tinggi, dan pengalaman pengguna kelas dunia.",
+      "speed": {
+        "title": "Kecepatan Ekstrem (Zero-Lag)",
+        "desc": "Arsitektur modern berbasis React Server Components & Edge Caching menjamin website Anda beroperasi instan tanpa jeda."
+      },
+      "security": {
+        "title": "Keamanan Enterprise",
+        "desc": "Dilengkapi Row Level Security (RLS), enkripsi end-to-end, dan arsitektur data audit-ready untuk melindungi aset bisnis Anda."
+      },
+      "seo": {
+        "title": "SEO & Core Web Vitals Hijau",
+        "desc": "Struktur semantik dan performa rendering skor 100/100 Lighthouse untuk dominasi peringkat mesin pencari organik."
+      },
+      "ux": {
+        "title": "Modern & Intuitive UX",
+        "desc": "Desain visual premium dengan micro-interactions dinamis yang memaksimalkan retensi dan konversi pengunjung menjadi klien."
+      }
+    },
+    "services": {
+      "badge": "Kapabilitas & Solusi",
+      "title": "Solusi Digital Terintegrasi Sesuai Kebutuhan Bisnis Anda",
+      "subtitle": "Dari portal web prestisius hingga otomasi alur kerja multi-cabang.",
+      "viewAll": "Buka Direktori Lengkap Layanan"
+    },
+    "portfolio": {
+      "badge": "Studi Kasus & Portofolio",
+      "title": "Karya yang Mendorong Pertumbuhan Nyata",
+      "subtitle": "Eksplorasi beberapa proyek unggulan yang kami kembangkan dengan teknologi terdepan.",
+      "viewLive": "Lihat Demo Interaktif",
+      "closeModal": "Tutup Pratinjau",
+      "viewAll": "Lihat Semua Studi Kasus"
+    },
+    "workflow": {
+      "badge": "Metodologi Kerja",
+      "title": "4 Tahap Transparan Menuju Peluncuran Sempurna",
+      "subtitle": "Kami menerapkan siklus agile yang terukur, bebas kejutan tak terduga, dan fokus pada hasil bisnis.",
+      "step1": {
+        "num": "01",
+        "title": "Konsultasi & Arsitektur",
+        "desc": "Analisis mendalam mengenai tantangan bisnis, audit proses yang ada, dan penyusunan cetak biru teknis."
+      },
+      "step2": {
+        "num": "02",
+        "title": "Desain UI/UX & Prototyping",
+        "desc": "Perancangan wireframe interaktif, design system modern, dan pengujian alur pengguna sebelum penulisan kode."
+      },
+      "step3": {
+        "num": "03",
+        "title": "Pengembangan Agile & QA",
+        "desc": "Eksekusi kode bersih, pengujian otomatis, integrasi database Supabase, dan keamanan RLS berlapis."
+      },
+      "step4": {
+        "num": "04",
+        "title": "Peluncuran & Support 24/7",
+        "desc": "Deploy ke infrastruktur cloud berkecepatan tinggi, pelatihan tim, dan monitoring performa pasca-rilis."
+      }
+    },
+    "testimonials": {
+      "badge": "Testimoni Klien",
+      "title": "Dipercaya oleh Para Pemimpin Bisnis & Founder",
+      "subtitle": "Inilah cerita langsung dari klien yang telah mentransformasi bisnis mereka bersama biru."
+    },
+    "cta": {
+      "title": "Siap Mengakselerasi Transformasi Digital Bisnis Anda?",
+      "subtitle": "Kirim tiket proyek Anda sekarang untuk mendapatkan estimasi arsitektur, rencana timeline, dan konsultasi teknis gratis.",
+      "button": "Kirim Tiket Proyek Sekarang",
+      "directWhatsapp": "Konsultasi Cepat via WhatsApp"
+    }
+  },
+  "services": {
+    "badge": "Daftar Layanan Lengkap",
+    "title": "Teknologi Terukur untuk Mendorong Skalabilitas Bisnis",
+    "subtitle": "Kami menggabungkan rekayasa perangkat lunak modern, arsitektur cloud tangguh, dan desain ergonomis.",
+    "requestTicket": "Minta Tiket untuk Layanan Ini",
+    "matrix": {
+      "badge": "Matriks Perbandingan Paket",
+      "title": "Pilih Model Kerjasama Sesuai Kebutuhan Anda",
+      "subtitle": "Transparansi penuh tanpa biaya tersembunyi.",
+      "headers": {
+        "features": "Fitur & Kapabilitas",
+        "starter": "Starter / Web Portal",
+        "growth": "Growth / Custom System",
+        "enterprise": "Enterprise / Full Suite"
+      },
+      "plans": {
+        "starterDesc": "Cocok untuk brand & UKM yang butuh eksistensi digital berkecepatan tinggi.",
+        "growthDesc": "Ideal untuk bisnis berkembang yang butuh efisiensi sistem internal kustom.",
+        "enterpriseDesc": "Skala korporasi dengan kebutuhan arsitektur khusus & SLA 24/7."
+      }
+    }
+  },
+  "portfolio": {
+    "badge": "Karya Unggulan & Portofolio",
+    "title": "Solusi Nyata yang Kami Bangun untuk Klien Terkemuka",
+    "subtitle": "Setiap proyek dirancang dari nol untuk memenuhi sasaran bisnis, skalabilitas jangka panjang, dan performa tinggi.",
+    "filters": {
+      "all": "Semua Proyek",
+      "customSystem": "Custom System",
+      "webProfile": "Web Profile",
+      "ecommerce": "E-Commerce"
+    },
+    "liveProject": "Buka Website / Demo",
+    "empty": "Belum ada proyek dalam kategori ini."
+  },
+  "about": {
+    "badge": "Tentang biru",
+    "title": "Agensi Digital Rekayasa Modern yang Mengutamakan Dampak Nyata",
+    "subtitle": "Kami lahir dari keyakinan bahwa teknologi digital yang hebat adalah perpaduan antara keanggunan estetika dan ketangguhan arsitektur kode.",
+    "story": {
+      "title": "Kisah Perjalanan Kami",
+      "p1": "Didirikan dengan visi untuk menghapuskan perangkat lunak yang lambat, rumit, dan membingungkan. Nama 'biru' merepresentasikan kejernihan pikiran, ketenangan dalam mengeksekusi sistem yang kompleks, dan kedalaman komitmen kami terhadap kualitas.",
+      "p2": "Sejak hari pertama, kami menolak jalan pintas template murahan. Kami merancang arsitektur perangkat lunak dari fondasi terkuat: kode yang bersih, performa nol latensi (zero-lag), dan keamanan level perbankan yang memberikan ketenangan bagi pemilik bisnis."
+    },
+    "mission": {
+      "title": "Misi Kami",
+      "desc": "Memberdayakan bisnis modern dengan teknologi kustom yang meningkatkan kecepatan operasional, mengeliminasi friksi manual, dan mempercepat pertumbuhan pendapatan secara eksponensial."
+    },
+    "vision": {
+      "title": "Visi Kami",
+      "desc": "Menjadi standar emas agensi rekayasa perangkat lunak dan automasi bisnis di Asia Tenggara yang paling diandalkan oleh para inovator industri."
+    },
+    "values": {
+      "badge": "Prinsip Inti",
+      "title": "Nilai-Nilai yang Mendasari Setiap Baris Kode",
+      "v1": {
+        "title": "Engineering Rigor",
+        "desc": "Kami mematuhi standar rekayasa tertinggi dengan tipe data ketat, testing komprehensif, dan arsitektur modular."
+      },
+      "v2": {
+        "title": "Craftsmanship Visual",
+        "desc": "Estetika bukan sekadar dekorasi, melainkan bahasa visual yang membangun kepercayaan instan di mata pengguna."
+      },
+      "v3": {
+        "title": "Speed with Stability",
+        "desc": "Kecepatan muat halaman instan dan kecepatan eksekusi proyek tanpa pernah mengorbankan stabilitas sistem jangka panjang."
+      },
+      "v4": {
+        "title": "Client-Centric Transparency",
+        "desc": "Komunikasi yang jelas, pelaporan berkala, dan akses penuh atas kode serta infrastruktur yang kami bangun untuk Anda."
+      }
+    },
+    "stack": {
+      "badge": "Teknologi Unggulan",
+      "title": "Stack Modern Kelas Industri yang Kami Gunakan",
+      "subtitle": "Kami hanya memilih perkakas teruji yang menjamin skalabilitas, kecepatan eksekusi, dan keamanan tinggi."
+    }
+  },
+  "contact": {
+    "badge": "Mulai Proyek Anda",
+    "title": "Kirimkan Tiket Kebutuhan Proyek Anda",
+    "subtitle": "Isi rincian di bawah ini. Sistem kami akan menerbitkan Nomor Tiket Unik dan tim arsitek teknologi kami akan menanggapi dalam waktu kurang dari 2 jam kerja.",
+    "form": {
+      "nameLabel": "Nama Lengkap",
+      "namePlaceholder": "cth. Alex Budiman",
+      "emailLabel": "Alamat Email Perusahaan",
+      "emailPlaceholder": "alex@perusahaan.com",
+      "phoneLabel": "Nomor WhatsApp",
+      "phonePlaceholder": "08123456789 atau +628123456789",
+      "serviceLabel": "Jenis Layanan yang Dibutuhkan",
+      "servicePlaceholder": "Pilih kategori layanan",
+      "serviceOptions": {
+        "web": "Website Enterprise / Profil Korporat",
+        "ecommerce": "Toko Online / E-Commerce Modern",
+        "custom_erp": "Sistem ERP / Supply Chain Kustom",
+        "custom_crm": "Sistem CRM / Manajemen Penjualan",
+        "custom_pos": "Aplikasi Kasir POS Multi-Outlet",
+        "automation": "Automasi Alur Kerja & Bot WhatsApp",
+        "maintenance": "Cloud Ops & Managed Maintenance"
+      },
+      "budgetLabel": "Estimasi Anggaran Investasi",
+      "budgetPlaceholder": "Pilih rentang anggaran",
+      "budgetOptions": {
+        "tier1": "Rp 15 Juta - Rp 30 Juta (Starter / Web)",
+        "tier2": "Rp 30 Juta - Rp 75 Juta (Medium / Specialized)",
+        "tier3": "Rp 75 Juta - Rp 150 Juta (Advanced / Custom System)",
+        "tier4": "> Rp 150 Juta (Enterprise Scale)"
+      },
+      "descLabel": "Deskripsi Proyek & Tantangan Bisnis",
+      "descPlaceholder": "Jelaskan tujuan proyek, kendala operasional saat ini, dan target fitur yang ingin dicapai...",
+      "submitButton": "Terbitkan Tiket Proyek",
+      "submittingButton": "Menerbitkan Tiket...",
+      "securityNotice": "Data Anda aman terlindungi dengan enkripsi SSL 256-bit dan kebijakan privasi ketat."
+    },
+    "success": {
+      "title": "Tiket Proyek Berhasil Diterbitkan!",
+      "subtitle": "Konfirmasi telah dikirimkan ke email Anda. Tim biru segera meninjau spesifikasi kebutuhan Anda.",
+      "ticketLabel": "KODE TIKET RESMI ANDA",
+      "copySuccess": "Kode tiket disalin ke clipboard",
+      "nextStepsTitle": "Langkah Berikutnya:",
+      "step1": "Tim arsitek solusi kami akan memverifikasi kebutuhan teknis dalam 1-2 jam.",
+      "step2": "Proposal penawaran awal beserta estimasi roadmap akan dikirimkan ke email Anda.",
+      "step3": "Anda dapat memantau atau mendiskusikan langsung via WhatsApp dengan menyertakan kode tiket.",
+      "waButton": "Chat Tim via WhatsApp dengan Kode Tiket",
+      "newTicket": "Buat Tiket Baru Lainnya"
+    },
+    "info": {
+      "officeTitle": "Kantor Pusat",
+      "officeAddress": "Menara Biru Digital, Lantai 18, SCBD Jakarta Selatan, DKI Jakarta 12190",
+      "emailTitle": "Email Resmi",
+      "emailVal": "halo@biru.agency",
+      "phoneTitle": "Hotline / WhatsApp",
+      "phoneVal": "+62 811-9283-7722",
+      "hoursTitle": "Jam Operasional",
+      "hoursVal": "Senin - Jumat: 08:30 - 18:00 WIB"
+    }
+  },
+  "admin": {
+    "login": {
+      "title": "Admin Authentication",
+      "subtitle": "Akses aman ke konsol manajemen tiket & proyek biru.",
+      "emailLabel": "Email Administrator",
+      "passwordLabel": "Kata Sandi",
+      "submit": "Masuk ke Dashboard",
+      "loggingIn": "Memverifikasi Kredensial...",
+      "demoHint": "Demo Mode: Gunakan kredensial admin demo atau Supabase Auth.",
+      "demoButton": "Isi Kredensial Demo Cepat",
+      "error": "Autentikasi gagal. Silakan periksa kembali email dan kata sandi Anda."
+    },
+    "dashboard": {
+      "title": "Konsol Manajemen biru",
+      "subtitle": "Kelola tiket klien, layanan, portofolio karya, dan testimoni secara terpusat.",
+      "tabs": {
+        "tickets": "Manajemen Tiket",
+        "services": "Manajemen Layanan",
+        "portfolio": "Manajemen Portofolio",
+        "testimonials": "Manajemen Testimoni"
+      },
+      "logout": "Keluar",
+      "refresh": "Segarkan Data"
+    }
+  }
+}

@@ -1,36 +1,91 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# biru — Modern Digital Agency Platform
 
-## Getting Started
+> Enterprise-grade web application for **biru**, a modern digital agency specializing in high-performance website development, bespoke digital systems (ERP / CRM / POS), and intelligent business automation.
 
-First, run the development server:
+---
+
+## ⚡ Tech Stack & Architecture
+
+- **Framework**: [Next.js 16 (App Router)](https://nextjs.org/) + React 19 + TypeScript
+- **Styling**: Tailwind CSS + Glassmorphism UI tokens + Lucide Icons + Framer Motion
+- **Database & Auth**: [Supabase](https://supabase.com/) (PostgreSQL Cloud) + `@supabase/ssr` + Supabase Auth
+- **Multi-Language (i18n)**: `next-intl` with localized subpaths (`/id` and `/en`)
+- **Forms & Validation**: React Hook Form + Zod (`ticketSubmissionSchema`)
+- **Email Service**: Resend API integration for automatic ticket confirmations and admin alerts
+- **Security**: Row Level Security (RLS) enabled on `public.tickets` (anon can insert; authenticated admins can read/update)
+
+---
+
+## 🚀 Live Routes
+
+### Public Localized Routes (`/[locale]/`)
+| Route | Description |
+|---|---|
+| `/[locale]` | **Home**: Hero section, Value Propositions (Speed, Security, SEO, Modern UX), Services Showcase, Portfolio with live preview modal, 4-step workflow, and client testimonials |
+| `/[locale]/services` | **Services**: In-depth breakdowns of all 4 service categories + Feature Comparison Matrix table (`Starter`, `Growth`, `Enterprise`) |
+| `/[locale]/about` | **About Us**: Company story, mission & vision, core principles, and interactive tech stack showcase |
+| `/[locale]/contact` | **Contact & Ticket Submission**: Interactive form with React Hook Form + Zod, returns unique `ticket_code` (e.g. `BIRU-1001`), copyable ticket ID, and direct WhatsApp fast-track |
+
+### Admin Area (Non-localized)
+| Route | Description |
+|---|---|
+| `/admin/login` | Secure login via Supabase Auth + 1-click Demo Credentials mode |
+| `/admin/dashboard` | Protected command console with real-time metrics cards, search & filterable tickets table, and slide-over status & admin notes editor |
+
+---
+
+## 🗄️ Supabase Database Schema
+
+The complete PostgreSQL migration script is located at:
+[`supabase/schema.sql`](./supabase/schema.sql)
+
+It configures:
+1. `ticket_status` ENUM (`NEW`, `IN_REVIEW`, `CONTACTED`, `DEAL`, `CLOSED`)
+2. Auto-increment sequence `public.ticket_code_seq START WITH 1001`
+3. Trigger generating `BIRU-xxxx` ticket codes
+4. `public.tickets` table with `created_at` and `updated_at` triggers
+5. Row Level Security (RLS) policies allowing public anon INSERT and authenticated admin SELECT/UPDATE
+
+---
+
+## 🔑 Environment Configuration
+
+Copy `.env.example` to `.env.local`:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+cp .env.example .env.local
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+```env
+# Supabase Configuration
+NEXT_PUBLIC_SUPABASE_URL=https://your-project-id.supabase.co
+NEXT_PUBLIC_SUPABASE_ANON_KEY=your-anon-key-here
+SUPABASE_SERVICE_ROLE_KEY=your-service-role-key-here
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+# Resend API Key
+RESEND_API_KEY=re_your_resend_api_key
+RESEND_FROM_EMAIL=biru Agency <onboarding@resend.dev>
+ADMIN_NOTIFICATION_EMAIL=support@biru.agency
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# Demo Admin Credentials (for evaluation & fallback mode)
+ADMIN_DEMO_EMAIL=admin@biru.agency
+ADMIN_DEMO_PASSWORD=biru2026!
+```
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🛠️ Development & Production
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+# Install dependencies
+npm install
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# Run local development server
+npm run dev
 
-## Deploy on Vercel
+# Build production bundle (tested with Next.js 16 App Router)
+npm run build
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# Start production server
+npm run start
+```

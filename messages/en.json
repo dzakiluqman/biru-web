@@ -1,0 +1,286 @@
+{
+  "common": {
+    "agencyName": "biru",
+    "agencyTagline": "Digital Engineering & Business Automation",
+    "nav": {
+      "home": "Home",
+      "services": "Services",
+      "portfolio": "Portfolio",
+      "about": "About Us",
+      "contact": "Contact & Tickets",
+      "admin": "Admin Portal"
+    },
+    "footer": {
+      "desc": "Modern digital agency specializing in high-performance software engineering, bespoke digital systems (ERP/CRM/POS), and intelligent business automation.",
+      "servicesTitle": "Core Services",
+      "companyTitle": "Company",
+      "legalTitle": "Legal & Contact",
+      "rights": "All rights reserved.",
+      "securityBadge": "Enterprise Grade Security",
+      "performanceBadge": "Zero-Lag Performance"
+    },
+    "actions": {
+      "learnMore": "Learn More",
+      "getStarted": "Get Started",
+      "viewPortfolio": "View Portfolio",
+      "contactSales": "Contact Team",
+      "backToHome": "Back to Home",
+      "copied": "Copied Successfully!",
+      "copy": "Copy",
+      "loading": "Processing...",
+      "close": "Close",
+      "save": "Save Changes",
+      "delete": "Delete",
+      "cancel": "Cancel"
+    }
+  },
+  "home": {
+    "hero": {
+      "badge": "Digital Transformation & Automation Agency",
+      "title": "Architecting Ultra-Fast Digital Ecosystems for Global Scale Businesses",
+      "highlight": "Ultra-Fast",
+      "subtitle": "We design and build enterprise web platforms, custom digital systems (ERP, CRM, POS), and automated operational workflows that boost operational efficiency by up to 300%.",
+      "primaryCta": "Create Project Ticket",
+      "secondaryCta": "View Portfolio",
+      "stats": {
+        "uptime": "99.98% Uptime SLA",
+        "speed": "< 0.8s Avg Load Time",
+        "delivered": "120+ Systems Shipped",
+        "satisfaction": "4.9/5 Client Rating"
+      }
+    },
+    "values": {
+      "badge": "Our Core Advantages",
+      "title": "Uncompromising Engineering Standards",
+      "subtitle": "Every line of code is optimized for raw speed, high-concurrency resilience, and world-class user experiences.",
+      "speed": {
+        "title": "Extreme Speed (Zero-Lag)",
+        "desc": "Modern architecture powered by React Server Components & Edge Caching ensures your web applications load instantly."
+      },
+      "security": {
+        "title": "Enterprise-Grade Security",
+        "desc": "Equipped with Row Level Security (RLS), end-to-end encryption, and audit-ready data models to safeguard your corporate assets."
+      },
+      "seo": {
+        "title": "100/100 Core Web Vitals",
+        "desc": "Semantic HTML structure and server-rendered optimization to dominate organic search engine rankings."
+      },
+      "ux": {
+        "title": "Modern & Intuitive UX",
+        "desc": "Premium aesthetics with fluid micro-interactions engineered to drive maximum user retention and customer conversion."
+      }
+    },
+    "services": {
+      "badge": "Capabilities & Solutions",
+      "title": "End-to-End Digital Solutions Tailored to Your Business Goals",
+      "subtitle": "From prestigious web portals to complex multi-branch workflow automation.",
+      "viewAll": "Explore All Services Directory"
+    },
+    "portfolio": {
+      "badge": "Case Studies & Portfolio",
+      "title": "Engineered Solutions Driving Measurable Impact",
+      "subtitle": "Explore flagship platforms we developed using cutting-edge technology stacks.",
+      "viewLive": "Interactive Preview",
+      "closeModal": "Close Preview",
+      "viewAll": "View All Case Studies"
+    },
+    "workflow": {
+      "badge": "Our Methodology",
+      "title": "A Transparent 4-Step Journey to Flawless Execution",
+      "subtitle": "We employ a proven agile methodology designed for predictable timelines, zero surprises, and tangible ROI.",
+      "step1": {
+        "num": "01",
+        "title": "Discovery & Architecture",
+        "desc": "In-depth analysis of your operational hurdles, data model mapping, and drafting a comprehensive technical blueprint."
+      },
+      "step2": {
+        "num": "02",
+        "title": "UI/UX Design & Prototype",
+        "desc": "Interactive wireframing, high-fidelity design systems, and usability validation prior to writing production code."
+      },
+      "step3": {
+        "num": "03",
+        "title": "Agile Engineering & QA",
+        "desc": "Clean code implementation, automated testing suites, Supabase database integration, and granular RLS security."
+      },
+      "step4": {
+        "num": "04",
+        "title": "Deployment & 24/7 SLA",
+        "desc": "Global edge deployment, hands-on team onboarding, and continuous telemetry monitoring post-launch."
+      }
+    },
+    "testimonials": {
+      "badge": "Client Endorsements",
+      "title": "Trusted by Visionary Founders & Enterprise Leaders",
+      "subtitle": "Hear directly from companies who have transformed their digital operations with biru."
+    },
+    "cta": {
+      "title": "Ready to Accelerate Your Enterprise Digital Transformation?",
+      "subtitle": "Submit your project ticket now to receive an architecture estimate, roadmap plan, and free engineering consultation.",
+      "button": "Submit Project Ticket Now",
+      "directWhatsapp": "Direct WhatsApp Fast-Track"
+    }
+  },
+  "services": {
+    "badge": "Full Service Directory",
+    "title": "Scalable Digital Engineering Tailored to Your Growth",
+    "subtitle": "We synthesize cutting-edge software engineering, resilient cloud infrastructure, and human-centric design.",
+    "requestTicket": "Request Ticket for this Service",
+    "matrix": {
+      "badge": "Feature Comparison Matrix",
+      "title": "Select the Ideal Collaboration Tier for Your Scope",
+      "subtitle": "Clear, upfront milestones with no hidden surprises.",
+      "headers": {
+        "features": "Capabilities & Deliverables",
+        "starter": "Starter / Web Portal",
+        "growth": "Growth / Custom System",
+        "enterprise": "Enterprise / Full Suite"
+      },
+      "plans": {
+        "starterDesc": "Best suited for brands and growing ventures demanding ultra-fast web presence.",
+        "growthDesc": "Ideal for scale-ups needing specialized internal systems and process automation.",
+        "enterpriseDesc": "Large corporations requiring bespoke multi-tenant architecture & 24/7 SLA."
+      }
+    }
+  },
+  "portfolio": {
+    "badge": "Flagship Work & Portfolio",
+    "title": "Tangible Engineering Outcomes Built for Global Innovators",
+    "subtitle": "Every project is architected from scratch to achieve business targets, sustainable scalability, and extreme performance.",
+    "filters": {
+      "all": "All Projects",
+      "customSystem": "Custom System",
+      "webProfile": "Web Profile",
+      "ecommerce": "E-Commerce"
+    },
+    "liveProject": "Open Website / Demo",
+    "empty": "No projects found in this category."
+  },
+  "about": {
+    "badge": "About biru",
+    "title": "A Digital Engineering Firm Relentlessly Focused on High Impact",
+    "subtitle": "Founded on the conviction that extraordinary software lives at the intersection of aesthetic refinement and architectural resilience.",
+    "story": {
+      "title": "Our Founding Story",
+      "p1": "Established to eliminate sluggish, convoluted, and uninspired software. The name 'biru' reflects clarity of thought, composure when managing complex systems, and our enduring dedication to technical craft.",
+      "p2": "From day one, we rejected cookie-cutter templates. We build software from foundational primitives: pure typed code, zero-lag edge performance, and bank-grade security that grants business leaders true peace of mind."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "desc": "To empower modern enterprises with bespoke digital platforms that accelerate operational velocity, remove manual friction, and trigger exponential business growth."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "desc": "To stand as the premier benchmark for software engineering and business automation across Southeast Asia, trusted by industry game-changers."
+    },
+    "values": {
+      "badge": "Core Tenets",
+      "title": "Guiding Values Embedded in Every Line of Code",
+      "v1": {
+        "title": "Engineering Rigor",
+        "desc": "We uphold the strictest engineering standards with strict typing, comprehensive testing, and modular component design."
+      },
+      "v2": {
+        "title": "Visual Craftsmanship",
+        "desc": "Aesthetics are not superficial dressing—they form an intuitive visual dialect that instills immediate confidence."
+      },
+      "v3": {
+        "title": "Speed with Stability",
+        "desc": "Instant page load speed and swift release iterations without ever compromising long-term platform resilience."
+      },
+      "v4": {
+        "title": "Client-Centric Transparency",
+        "desc": "Clear technical communication, regular sprints, and unencumbered ownership of the code and infrastructure we deliver."
+      }
+    },
+    "stack": {
+      "badge": "Proven Tech Stack",
+      "title": "Battle-Tested Modern Technologies in Our Arsenal",
+      "subtitle": "We select only state-of-the-art tools engineered for extreme scalability, rapid execution, and robust security."
+    }
+  },
+  "contact": {
+    "badge": "Launch Your Initiative",
+    "title": "Submit Your Project Ticket",
+    "subtitle": "Complete the form below. Our platform will generate a unique Ticket ID and our senior engineering architects will respond within 2 business hours.",
+    "form": {
+      "nameLabel": "Full Name",
+      "namePlaceholder": "e.g. Alex Budiman",
+      "emailLabel": "Corporate Email Address",
+      "emailPlaceholder": "alex@company.com",
+      "phoneLabel": "WhatsApp Phone Number",
+      "phonePlaceholder": "+62 812 3456 7890",
+      "serviceLabel": "Requested Service Category",
+      "servicePlaceholder": "Select a service category",
+      "serviceOptions": {
+        "web": "Enterprise Website / Corporate Portal",
+        "ecommerce": "Modern E-Commerce Engine",
+        "custom_erp": "Custom ERP / Supply Chain System",
+        "custom_crm": "Custom CRM / Sales Management",
+        "custom_pos": "Multi-Outlet POS Application",
+        "automation": "Workflow Automation & WhatsApp Bot",
+        "maintenance": "Cloud Ops & Managed Maintenance"
+      },
+      "budgetLabel": "Estimated Investment Budget",
+      "budgetPlaceholder": "Select budget bracket",
+      "budgetOptions": {
+        "tier1": "$1,000 - $2,500 (Starter / Web)",
+        "tier2": "$2,500 - $5,000 (Medium / Specialized)",
+        "tier3": "$5,000 - $10,000 (Advanced / Custom System)",
+        "tier4": "> $10,000 (Enterprise Scale)"
+      },
+      "descLabel": "Project Scope & Business Problem",
+      "descPlaceholder": "Describe project goals, existing operational pain points, and target feature requirements...",
+      "submitButton": "Generate Project Ticket",
+      "submittingButton": "Generating Ticket...",
+      "securityNotice": "Your information is protected by 256-bit SSL encryption and strict data confidentiality protocols."
+    },
+    "success": {
+      "title": "Project Ticket Issued Successfully!",
+      "subtitle": "A confirmation dispatch has been routed to your inbox. The biru engineering team is reviewing your requirements.",
+      "ticketLabel": "YOUR OFFICIAL TICKET CODE",
+      "copySuccess": "Ticket code copied to clipboard",
+      "nextStepsTitle": "Next Action Items:",
+      "step1": "Our solution architects will analyze your technical requirements within 1-2 hours.",
+      "step2": "An initial architecture brief and roadmap schedule will be sent to your email.",
+      "step3": "Track progress or connect immediately via WhatsApp using your ticket code.",
+      "waButton": "Chat with Engineering on WhatsApp",
+      "newTicket": "Submit Another Ticket"
+    },
+    "info": {
+      "officeTitle": "Headquarters",
+      "officeAddress": "Biru Digital Tower, 18th Floor, SCBD South Jakarta, Indonesia 12190",
+      "emailTitle": "Official Inquiries",
+      "emailVal": "halo@biru.agency",
+      "phoneTitle": "Hotline / WhatsApp",
+      "phoneVal": "+62 811-9283-7722",
+      "hoursTitle": "Operating Hours",
+      "hoursVal": "Monday - Friday: 08:30 - 18:00 WIB (UTC+7)"
+    }
+  },
+  "admin": {
+    "login": {
+      "title": "Admin Authentication",
+      "subtitle": "Secure credentials portal for biru project & ticket operations.",
+      "emailLabel": "Administrator Email",
+      "passwordLabel": "Password",
+      "submit": "Authenticate & Enter",
+      "loggingIn": "Verifying Credentials...",
+      "demoHint": "Demo Mode: Use quick demo credentials or Supabase Auth.",
+      "demoButton": "Fill Quick Demo Admin",
+      "error": "Authentication failed. Please verify your email and password."
+    },
+    "dashboard": {
+      "title": "biru Command Console",
+      "subtitle": "Centrally manage client leads, services directory, portfolio showcase, and client endorsements.",
+      "tabs": {
+        "tickets": "Tickets Management",
+        "services": "Services Management",
+        "portfolio": "Portfolio Management",
+        "testimonials": "Testimonials Management"
+      },
+      "logout": "Log Out",
+      "refresh": "Refresh Data"
+    }
+  }
+}
